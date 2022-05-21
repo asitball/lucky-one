@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/x3Lc7LJ/iphone.jpg",
+		"deviceName":"iphone",
+		"price": 150000
+
+	},
+    {
+        "id":2 ,
+        "image": "https://i.ibb.co/P5y3K1s/samsung.jpg",
+		"deviceName": "Samsung",
+		"price":70000
+
+	},
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/HGJGRzx/vivo.jpg",
+		"deviceName": "Vivo",
+		"price":60000
+
+	},
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/N9RQXyy/oppo.jpg",
+		"deviceName": "Oppo",
+		"price":50000
+
+	},
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/6wwsC27/huawei.jpg",
+		"deviceName": "Huawei",
+		"price":40000
+
+	},
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/Nr01J9Q/motorola.jpg",
+		"deviceName": "Motorola",
+		"price":550000
+
+	},
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/37ZHGWZ/realme.jpg",
+		"deviceName": "realme",
+		"price":25000
+
+	},
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/fqjRJQz/nokia.jpg",
+		"deviceName": "Nokia",
+		"price":550000
+
+	},
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/1nKYb1d/symphony.jpg",
+		"deviceName": "Symphony",
+		"price":550000
+
+	}
+    
+]
+
+
+
+
+
+
+

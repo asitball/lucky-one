@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import image from './images/vivo.jpg'
+import Products from './components/Products/Products';
 
 function App() {
   return (
-    <div>
-      <h1>hello world</h1>
+    <div >
+     <Products></Products>
     </div>
   );
 }
