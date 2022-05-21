@@ -4,6 +4,7 @@ import Products from './components/Products/Products';
 function App() {
   return (
     <div >
+    <h2 className="title">Mobile <span>Gallery</span></h2>
       <Products></Products>
       <div className="question">
         <div>
