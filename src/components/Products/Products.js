@@ -25,7 +25,7 @@ const Products = () => {
         <div className='cart-container'>
             <h3>Cart Summary</h3>
             {
-                cart.map(cart => <Cart cart ={cart}></Cart>)
+                cart.map(cart => <Cart key={cart.id} cart ={cart}></Cart>)
             }
             <button className='add-btn'>Choose 1 for me</button>
             <button className='add-btn'>Choose Again</button>
