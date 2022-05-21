@@ -9,5 +9,7 @@
     padding: 15px;
 }
 .cart-container{
-    background-color: gray;
+    background-color: rgba(161, 161, 161, 0.349);
+    text-align: center;
+    padding-top: 25px;
 }
