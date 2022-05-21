@@ -1,6 +1,7 @@
 import React from 'react';
 import './Product.css';
 const Product = (props) => {
+    const {product, handleAddToCart} = props;
     const {id, deviceName, price, image} = props.product;
     return (
         <div className="product">
@@ -8,7 +9,7 @@ const Product = (props) => {
             <h2>Device Name: {deviceName}</h2>
             <h5>Price: {price}</h5>
            
-           <button>
+           <button onClick={()=>handleAddToCart(product)}>
            Add to Cart
             {/* <p>Add to Cart <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
                 <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z"/>
